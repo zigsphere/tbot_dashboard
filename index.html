@@ -99,14 +99,15 @@
 
     <!-- If you want more just copy the following code from here -->
     <h2>All Commands</h2>
-    <p>(All the following commands use your serves prefix i.e. !)</p>
+    <p>(All the following commands use your serves prefix i.e. !)</p><>
+    <p>[] - Required. {} - Optional.</p>
 
     <div class="accordion">
     <div class="accordion-item">
         <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title"> Main Commands </span><span class="icon" aria-hidden="true"></span></button>
         <div class="accordion-content">
             <p>help: Shows the help command.
-            <br>help2: Shows the full list of command in discord.
+       <!-- <br>help2: Shows the full list of command in discord. -->
             <br>hello2: Says hello to you.
             <br>bye: Says bye to you.
             <br>happy: Asks you why you are happy.
@@ -163,6 +164,7 @@
             <br>updates: Show the most recent updates
             <br>bages: Shows the available discord bages
             <br>serverinvite: Gets a invite to your server
+            <br>logs: Shows the available Audit log's
             </p>
         </div>
     </div>
@@ -173,12 +175,12 @@
         <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title"> Mod Commands </span><span class="icon" aria-hidden="true"></span></button>
         <div class="accordion-content">
             <p>clear [number of messages]: Deletes a number of messages in a channel
-            <br>kick [@user] [reason]: kicks the member you mentioned
-            <br>ban [@user] [reason]: Bans a member from the server
-            <br>unban [name # number]: unbans a member from the server
+            <br>kick [@user] {reason}: kicks the member you mentioned
+            <br>ban [@user] {reason}: Bans a member from the server
+            <br>unban [@member]: unbans a member from the server
             <br>mute [@user]: Mutes a user in the server.
             <br>unmute [@user]: Unmutes a user in the server
-            <br>tempmute [@user] [time i.e. 5m]: temporary mutes a user in the server.
+            <br>tempmute [@user] [time]: temporary mutes a user in the server.
             <br>slowmode [1-21600]: Turns of slow mode
             <br>warn [@user] [reason]: Warns a user.
             <br>warnings [@user] : Displays all the past warnings of a user.
@@ -197,7 +199,7 @@
             <br>deletecategory ["name"]: Deletes a category for text channels
             <br>lockdown [N/A]: locks the channel so no member has access to type
             <br>unlock [N/A]: unlocks the channel so member has access to type
-            <br>uptime [N/A] (owners only): Says the up-time of the bot
+            <br>uptime [N/A]: Says the up-time of the bot
             <br>changeprefix [prefix]: Changes the prefix of the bot (default is '!')
             <br>createemoji [URL of image] [name]: pings the chat
             <br>deleteemoji [emoji]: Deletes an emoji
@@ -206,7 +208,7 @@
             <br>channelstats [#channel]: Gets stats on a channel
             <br>toggleon [command]: Turns on a command and you cant use it
             <br>toggleoff [command]: Turns off a command and you cant use it
-            <br>setmodlogs: This sets a channel for logs
+            <br>setmodlogs [#channel]: This sets a channel for logs
             </p>
         </div>
     </div>
@@ -236,7 +238,7 @@
 
     <!-- to here :D -->
     <div class="accordion-item">
-        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title"> Money Commands </span><span class="icon" aria-hidden="true"></span></button>
+        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Money Commands</span><span class="icon" aria-hidden="true"></span></button>
         <div class="accordion-content">
             <p>leaderborad: This shows the leaderboard
             <br>balance: Shows how much "money" you have
@@ -253,22 +255,32 @@
     </div>
 
     <!-- to here :D -->
-    <!-- <div class="accordion-item">
+    <div class="accordion-item">
       <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Music commands (to use this feature use !)</span><span class="icon" aria-hidden="true"></span></button>
         <div class="accordion-content">
-            <p>join: Joins the vc with you
-            <br>leave: Leaves the vc that you are in
-            <br>play: Plays the song you want with [song title] or [YouTube link]
-            <br>pause: Pause the song
-            <br>resume: Resumes the song you paused
-            <br>stop: Stops the song but the bot says in the vc call
-            <br>skip: Skips the song but needs everyone in the vc to vote the skip
-            <br>queue: Shows the queue of the songs
-            <br>shuffle: Randomly chooses the song that play
-            <br>remove [number]: Empty's the queue
+            <p>!join: Joins the vc with you
+            <br>!leave: Leaves the vc that you are in
+            <br>!play: Plays the song you want with [song title] or [YouTube link]
+            <br>!pause: Pause the song
+            <br>!resume: Resumes the song you paused
+            <br>!stop: Stops the song but the bot says in the vc call
+            <br>!skip: Skips the song but needs everyone in the vc to vote the skip
+            <br>!queue: Shows the queue of the songs
+            <br>!shuffle: Randomly chooses the song that play
+            <br>!remove [number]: Empty's the queue
             </p>
         </div>
-    </div> -->
+    </div>
+
+    <!-- to here :D -->
+    <div class="accordion-item">
+      <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Leveling</span><span class="icon" aria-hidden="true"></span></button>
+        <div class="accordion-content">
+            <p>setlevelchannel [#channel]: Set the channel where the leveling messages will be sent
+            <br>levelconfig [on/off]: You can turn on/off the leveling system
+            </p>
+        </div>
+    </div>
 
 </div>
 </div>
