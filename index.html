@@ -215,7 +215,6 @@
             <br>channelstats [#channel]: Gets stats on a channel
             <br>toggleon [command]: Turns on a command and you cant use it
             <br>toggleoff [command]: Turns off a command and you cant use it
-            <br>setmodlogs [#channel]: This sets a channel for logs
             </p>
         </div>
     </div>
@@ -239,6 +238,10 @@
             <br>binary: Converts a message into 1 and 0
             <br>clyde: Show a pic of clyde and your message
             <br><!-- country: shows you the stats of a country -->
+            <br>youtube [search]</div>: Searches a youtube link
+            <br>minecraft ["sentence"]: Puts your sentence in a minecraft achievements
+            <br>pat {member}: Shows a GIF of someone being peted
+            <br>qr [link]: puts a link in a qr code
             </p>
         </div>
     </div>
@@ -281,16 +284,29 @@
 
     <!-- to here :D -->
     <div class="accordion-item">
-      <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Leveling</span><span class="icon" aria-hidden="true"></span></button>
+      <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Logging</span><span class="icon" aria-hidden="true"></span></button>
         <div class="accordion-content">
-            <p>setlevelchannel [#channel]: Set the channel where the leveling messages will be sent
+            <p>aduitlog [on/off]: You can turn on/off the logs
             <br>
-            <br>levelconfig [on/off]: You can turn on/off the leveling system
+            <br>setmodlog [#channel]: Set the channel where the log messages will be sent
             <br>
-            <br>rank: Shows your current level and exp
+            <br>logs: shows what are the available logged messages
             </p>
         </div>
     </div>
+
+    <!-- to here :D -->
+    <div class="accordion-item">
+        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Leveling</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+              <p>levelconfig [on/off]: You can turn on/off the leveling system
+              <br>
+              <br>setlevelchannel [#channel]: Set the channel where the leveling messages will be sent
+              <br>
+              <br>rank: Shows your current level and exp
+              </p>
+          </div>
+      </div>
 
 </div>
 </div>
