@@ -204,8 +204,7 @@
     <div class="accordion-item">
         <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title"> Mod Commands </span><span class="icon" aria-hidden="true"></span></button>
         <div class="accordion-content">
-            <p>
-            clear [number of messages]: Deletes several messages in a channel.
+            <p>clear [number of messages]: Deletes several messages in a channel.
             <br>kick [@user] {reason}: kicks the member you mentioned.
             <br>ban [@user] {reason}: Bans a member from the server.
             <br>unban [@member]: unbans a member from the server.
@@ -239,6 +238,9 @@
        <!-- <br>toggleon [command]: Turns on a command and you cant use it -->
        <!-- <br>toggleoff [command]: Turns off a command and you cant use it -->
             <br>snipe: This grabs the last deleted messages
+            <br>setmainrole: Sets your main server role (ie)
+            <br>serverlockdown
+            <br>serverunlock
             </p>
         </div>
     </div>
@@ -320,8 +322,12 @@
     <div class="accordion-item">
       <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Logging</span><span class="icon" aria-hidden="true"></span></button>
         <div class="accordion-content">
-            <p>aduitlog [on/off]: You can turn on/off the logs
-            <br>
+            <p><details>
+                    <summary>aduitlog: You can turn on/off the logs</summary>
+                    Usage:
+                        aduitlog [on/off]
+                </details>
+
             <br>setmodlog [#channel]: Set the channel where the log messages will be sent
             <br>
             <br>logs: shows what are the available logged messages
