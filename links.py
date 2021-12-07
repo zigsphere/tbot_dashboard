@@ -41,7 +41,7 @@ link1 = ["101nitro.com", "1nitro.club", "appnitro-discord.com", "appnitro-discor
          "discordhalloween.co.uk", "discordhalloween.com", "discordhalloween.uk", "discordhalloweens.com", "discordi.gift", "discordisteam.com", "discordj.gift", 
          "discordl-steam.com", "discordl.gift", "discordlapp.fun", "discordlgift.com", "discordlgift.ru.com", "discordll.gift", "discordn.com", "discordn.gift", "discordnitro.cc", 
          "discordnitro.click", "discordnitro.fun", "discordnitro.info", "discordnitro.pw", "discordnitro.quest", "discordnitro.ru.com", "discordnitrogift.ru", "discordnitrogift.space", 
-         "discordnltro.gifts", "discordpromo.com", "discordpromo.gifts", "discordpromos.com", "discordpromos.gifts", "discordpromos.us", "discordq.com", "discordrgift.com. 
+         "discordnltro.gifts", "discordpromo.com", "discordpromo.gifts", "discordpromos.com", "discordpromos.gifts", "discordpromos.us", "discordq.com", "discordrgift.com", 
          "discordrgift.ru", "discords-gift.com", "discords-gift.ru", "discords-gifte.com", "discords-gifte.ru", "discords-gifts.ru", "discords-gifts.xyz", "discords-nitro.xyz", 
          "discords-teams.com", "discordsgift.com", "discordsgift.info", "discordsgift.xyz", "discordsteam.com", "discordsteam.ru", "discordsteams.com", "discordt.gift", 
          "discordu.gift", "discorgift.xyz", "discorid.gift", "discoril.com", "discorl.com", "discorl.site", "discorrd.gift", "discorrd.link", "discorrd.ru", "discorrl.com", 
